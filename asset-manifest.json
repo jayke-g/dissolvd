@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dissolvd/static/css/main.7d8fc9e8.css",
+    "main.js": "/dissolvd/static/js/main.2d7bf670.js",
+    "static/media/watch.svg": "/dissolvd/static/media/watch.879feef81f2c18d6ea56778c9ca6b659.svg",
+    "static/media/discussone.svg": "/dissolvd/static/media/discussone.aa75068d4e57d0e9b047e3c1929ef276.svg",
+    "static/media/fakeposter.png": "/dissolvd/static/media/fakeposter.c6ac39aec60d1867b8b3.png",
+    "static/media/discussthree.svg": "/dissolvd/static/media/discussthree.f0d8c3e672f766d094bc89c527461ed2.svg",
+    "static/media/discusstwo.svg": "/dissolvd/static/media/discusstwo.1bdaccb9b94a7fd85cc96d99c80f9d33.svg",
+    "static/media/discusscropped.png": "/dissolvd/static/media/discusscropped.9dc9c7b55c4eb17e1196.png",
+    "static/media/post.svg": "/dissolvd/static/media/post.cc43cdfa4b107c8c308b9d91faca8e06.svg",
+    "static/media/search_icon.png": "/dissolvd/static/media/search_icon.a27091ef0c45faf8a66e.png",
+    "static/media/logobd.svg": "/dissolvd/static/media/logobd.b33e6384709ebfb276de45b0a3300d1f.svg",
+    "static/media/stars.svg": "/dissolvd/static/media/stars.ecee4f386ab1fee4dcd8b4b0e48dc327.svg",
+    "index.html": "/dissolvd/index.html",
+    "main.7d8fc9e8.css.map": "/dissolvd/static/css/main.7d8fc9e8.css.map",
+    "main.2d7bf670.js.map": "/dissolvd/static/js/main.2d7bf670.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d8fc9e8.css",
+    "static/js/main.2d7bf670.js"
+  ]
+}
