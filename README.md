@@ -12,15 +12,11 @@ Proof of concept for a movie reviewing website (with no functional reviewing sys
     <img src="https://i.imgur.com/b8z3Lww.jpg" alt="Home page" />
 </p>
 
-</br>
-
 ### Movie Page
 
 <p align="center">
     <img src="https://i.imgur.com/smMFvuG.jpg" alt="Movie page" />
 </p>
-
-</br>
 
 ### About Page
 
