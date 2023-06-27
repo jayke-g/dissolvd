@@ -1,6 +1,6 @@
 # Dissolvd
 
-[jayke-g.github.io/dissolvd/](jayke-g.github.io/dissolvd/)
+[jayke-g.github.io/dissolvd/](http://jayke-g.github.io/dissolvd)
 
 My first ever React focused project I built during the coding bootcamp I completed.
 
