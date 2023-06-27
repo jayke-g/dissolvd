@@ -16,7 +16,7 @@ export const HomeIntro = () => {
                     <h2 className="intro__info--subtitle">
                         Watch. Post. Discuss.
                     </h2>
-                        <Link to="/dissolvd/about">
+                        <Link to="/about">
                         <button type="type" className="intro__info--btn">
                             Get Started
                         </button>

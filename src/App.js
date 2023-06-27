@@ -1,6 +1,6 @@
 import "./App.css";
 import Body from "./components/Body";
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 function App() {
 
@@ -26,9 +26,9 @@ function App() {
             </div>
         </div>
         <div className="main-desktop">
-            <Router>
+            <HashRouter>
                     <Body />
-            </Router>
+            </HashRouter>
         </div>
     </>
     );
