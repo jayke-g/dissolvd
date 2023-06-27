@@ -36,7 +36,7 @@ const Body = () => {
       <Routes>
         <Route
           exact
-          path="/"
+          path="/dissolvd"
           element={
             <HomePage
               displayResults={!!movieResults.length && query !== ""}
@@ -47,7 +47,7 @@ const Body = () => {
         />
         <Route
           exact
-          path="/movie/:id"
+          path="/dissolvd/movie/:id"
           element={
             <FilmPage
               displayResults={!!movieResults.length && query !== ""}
@@ -60,7 +60,7 @@ const Body = () => {
         />
         <Route
           exact
-          path="/about"
+          path="/dissolvd/about"
           element={
             <CreateAccountPage
               displayResults={!!movieResults.length && query !== ""}

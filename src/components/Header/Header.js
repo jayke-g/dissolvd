@@ -14,7 +14,7 @@ export const Header = ({ setQuery, query }) => {
                 {/* NAV BAR LOGOS */}
                 <div className="logo" onClick={() => setQuery('')}>
                     {/*  LOGO FOR BROWSER VERSION */}
-                    <Link to="/">
+                    <Link to="/dissolvd">
                         <img
                             className="logo--big"
                             src={logobd}
