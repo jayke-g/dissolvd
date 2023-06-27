@@ -1,0 +1,222 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700;900&display=swap);
+
+body {
+    margin: 0;
+}
+
+.film-wrap {
+    width: 100%;
+    margin: auto;
+    font-family: "Rubik";
+}
+
+.film-backdrop-wrap {
+    display: flex;
+    background-color: rgba(255, 190, 24, 1);
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    z-index: -1;
+}
+
+.film-backdrop {
+    margin: auto;
+}
+
+.film-backdrop img {
+    width: 1080px;
+    border-radius: 10px;
+}
+
+.film-details-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    bottom: 13rem;
+    width: 1080px;
+}
+
+.film-poster {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.film-poster img {
+    width: 225px;
+    height: 350px;
+    border-radius: 0.3rem;
+    filter: drop-shadow(7px 9px 4px rgba(0, 0, 0, 0.25));
+}
+
+.film-heading {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1rem;
+}
+
+.film-title {
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    text-align: left;
+    letter-spacing: 0.1rem;
+    font-size: 3rem;
+    margin: 0;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.film-year {
+    text-align: left;
+    margin: 0;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem 1rem 1rem;
+}
+
+.film-director {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1rem;
+}
+
+.film-director p {
+    margin: 0;
+    padding: 0rem 1rem;
+    font-size: 1.3rem;
+}
+
+.film-overview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 700px;
+    position: relative;
+    bottom: 12rem;
+}
+
+.film-overview {
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.film-review-modal {
+    width: 50%;
+    height: 70%;
+    position: absolute;
+    inset: 40px;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.film-review {
+    border-radius: 1rem;
+    font-family: "Rubik", Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.film-review-poster {
+    width: 200px;
+    height: 300px;
+    border-radius: 0.3rem;
+    border: 1px solid black;
+}
+
+.film-review-rate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.5rem;
+}
+
+.film-review-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.film-review-info h3 {
+    font-family: "Gibroma", "Rubik";
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.film-review-rating {
+    margin: 0;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+.test {
+    margin-left: 0;
+    margin-right: 0;
+}
+.film-review-stars {
+    padding: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.film-review-text {
+    font-family: "Rubik";
+    width: 350px;
+    height: 100px;
+    resize: none;
+    padding: 1rem;
+}
+
+.film-review-check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.film-review-check p {
+    font-size: 1rem;
+}
+
+.film-review-btn {
+    font-family: "Rubik", Helvetica, sans-serif;
+    margin: 0;
+    border-radius: 2rem;
+    background-color: #f71647;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 0.75rem;
+    padding: 0.75rem 2rem;
+    text-decoration: none;
+}
+
+.film-review-btn:hover {
+    background-color: #f64c72;
+}
+
+.film-user-btns {
+    padding: 1rem;
+}
+
+.film-user-eye,
+.film-user-add,
+.film-user-copy {
+    cursor: pointer;
+    padding-right: 1rem;
+    border: none;
+    background: none;
+}
+
+.film-user-copy {
+    padding-bottom: 0.3rem;
+}

@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Body from "./components/Body";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    return (
+    <>
+        <div className="welcome-mobile">
+            <div>
+           <strong> Welcome to Dissolvd! </strong>
+            </div>
+            <div>
+                <i>
+                Mobile version isn't ready yet but it will be soon.
+                Please check out the desktop version
+                </i>
+            </div>
+            <div>
+                Dissolvdへようこそ 
+                モバイル版はまだ準備ができていませんので、 デスクトップ版をご利用してください。
+            </div>
+            <div>
+                La version mobile de notre application mobile n'est disponible pour le moment.
+                Veuillez consulter la version pour ordinateur.
+            </div>
+        </div>
+        <div className="main-desktop">
+            <Router>
+                    <Body />
+            </Router>
+        </div>
+    </>
+    );
 }
 
 export default App;

@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700;900&display=swap");
+
+.header-wrap {
+    background-color: rgba(255, 190, 24, 1);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1rem;
+    font-family: "Rubik", Helvetica, sans-serif;
+    color: #232323;
+    height: 7.5vh;
+    background-color: rgba(255, 190, 24, 1);
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1080px;
+    margin: auto;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.logo {
+    width: 17.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.logo {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo--big {
+    height: 2.75rem;
+    cursor: pointer;
+}
+
+.desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 82.5%;
+}
+
+.desktop--item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 1rem;
+    text-decoration: none;
+    color: #232323;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+    font-size: 0.75rem;
+}
+
+.desktop__search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desktop__search--icon {
+    height: 1.25rem;
+    cursor: pointer;
+    padding: 0rem 1rem;
+}
+
+.desktop__search--input {
+    border-radius: 1rem;
+    border: 1px solid #232323;
+    padding: 0.3rem;
+    text-indent: 0.7rem;
+    background-color: #F5F5F5;
+}
+
+.desktop__search--input:focus {
+    background-color: white;
+}
+
+.search {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.underline {
+    display: inline-block;
+    position: relative;
+    color: #232323;
+}
+.underline:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -0.25rem;
+    left: 0;
+    background-color: #232323;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.underline:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.sign-in-modal {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    inset: 40px;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
